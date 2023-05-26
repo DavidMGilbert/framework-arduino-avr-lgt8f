@@ -57,10 +57,10 @@ rootproject\
 Create a `platformio.ini` with the following contents:
 ```
 [env:wavgat]
-platform = https://github.com/rick3rt/platform-atmelavr.git
+platform = https://github.com/davidmgilbert/platform-atmelavr.git
 board = wavgatnano
 framework = arduino
-platform_packages = framework-arduino-avr-lgt8f@https://github.com/rick3rt/framework-arduino-avr-lgt8f.git
+platform_packages = framework-arduino-avr-lgt8f@https://github.com/davidmgilbert/framework-arduino-avr-lgt8f.git
 ```
 and build your project.
 
